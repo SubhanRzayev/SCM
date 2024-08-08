@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::#title},~{})}" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title id="title">Home Page</title>
+</head>
+<body>
+
+    <div id="content" class="bg-gray-200 w-1/2 p-4 flex flex-col justify-center items-center space-y-3 mx-auto mt-4">
+        <h1 class="text-2xl font-bold" th:text="${name}" >
+            Welcome to Home Page
+        </h1>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi asperiores culpa illo inventore neque
+            odit voluptate. Consequatur ex exercitationem facere facilis minus modi, molestias non quisquam rerum
+            temporibus, veniam!</p>
+
+        <div>
+            <button class="px-3 py-3 rounded bg-blue-700 text-white hover:bg-blue-600"> Click Here</button>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+
