@@ -78,7 +78,7 @@ public class PageController {
 //                .about(userForm.getAbout())
 //                .phoneNumber(userForm.getPhone())
 //                .profilePicture(
-//                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s")
+//                        "")
 //                .build();
 
         //validate form data
